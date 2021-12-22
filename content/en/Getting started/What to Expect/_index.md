@@ -23,6 +23,7 @@ results. Here's what you can expect:
    we can use.)
    - As soon as we've selected your pentesters, and have moved your pentest to
      the "Planned" state, you'll see them in your Slack channel.
+1. When our pentesters start analyzing your asset, we'll move your pentest state to "Live".
 1. You may get questions from your pentesters in Slack. You can also elaborate
    on your requirements in that same channel.
 1. As our pentesters analyze your asset, they'll add updates frequently in your
@@ -38,7 +39,7 @@ results. Here's what you can expect:
    start remediating your code before you see a Pentest report.
    {{% /alert %}}
 
-1. Once the pentest is complete, we replace the "In Review" label with "Remediation."
+1. Once the pentest is complete, we replace the "Live" label with "Remediation."
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the Findings tab.
    - Scroll down until you see "Activity." Depending on your assessment, you can
@@ -64,5 +65,7 @@ results. Here's what you can expect:
 1. Within days, our pentesters share a more formal pentest report.
    You're welcome to download this
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
+
+For a full list of different pentest states:
 
    <!-- Timing confirmed with Grahame -->
